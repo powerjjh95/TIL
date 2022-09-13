@@ -25,4 +25,5 @@ for t in range(1, T + 1):
     # print(prime_number_count) # 정답
 
 
-    print(f'#{t} {prime_number_count}')
+    print(f'#{t}',end = ' ')
+    print(*prime_number_count)
