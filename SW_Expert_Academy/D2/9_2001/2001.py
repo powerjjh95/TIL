@@ -6,17 +6,24 @@ T = int(input())
 for t in range(1, T + 1):
     N, M = list(map(int, input().split()))
     pari = [list(map(int, input().split())) for _ in range(N)]
-    parichae = [[0] * M for _ in range(M)]
 
     # try2
+    # M개 씩 담아야 한다.
+
+    max_parichae = 0
+    sum_parichae_list = []
     for i in range(N - M + 1):
         for j in range(N - M + 1):
+            sum_parichae = 0
             for k in range(M):
                 for l in range(M):
-                    parichae[i + k][j + l] = pari[i + k][j + l]
-        print(f'{t} {parichae}')
+                    sum_parichae += pari[i + k][j + l]
+                    sum_parichae_list += [sum_parichae]
+                    max_parichae = max(sum_parichae_list)
 
-            # ans = max(sum_parichae, ans)
+
+    print(f'#{t} {max_parichae}')
+
 
     # print(f'#{t} {ans}')
 
