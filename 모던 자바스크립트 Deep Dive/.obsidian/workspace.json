@@ -1,39 +1,48 @@
 {
   "main": {
-    "id": "a0c8eb5e2dae836d",
+    "id": "c49e4d6f2bde55b5",
     "type": "split",
     "children": [
       {
-        "id": "aba28cb817811954",
+        "id": "4b493e3f8437cb6b",
         "type": "tabs",
         "children": [
           {
-            "id": "4bb252534ee950c1",
+            "id": "0b6ac9857cc61971",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/20221004/20221004.md",
+                "file": "20221101/01장/01장.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "1715da8d65424ed3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d00bb315de15ce0f",
+    "id": "522b3fcc011f5dda",
     "type": "split",
     "children": [
       {
-        "id": "c01375ce6f5d9b1f",
+        "id": "7d71c277f161de3a",
         "type": "tabs",
         "children": [
           {
-            "id": "1967e84b33c96315",
+            "id": "b7f48079dc32786c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +52,7 @@
             }
           },
           {
-            "id": "acb79bd1642ffaf6",
+            "id": "cf2c2ec4a96f61a9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +67,7 @@
             }
           },
           {
-            "id": "d919696fa0b97af1",
+            "id": "d99d17271a54c975",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -72,20 +81,19 @@
     "width": 300
   },
   "right": {
-    "id": "b235c297ac89dd85",
+    "id": "8df6aee3d2854c38",
     "type": "split",
     "children": [
       {
-        "id": "e5681121dfa3acf5",
+        "id": "5c75c2b85396e945",
         "type": "tabs",
         "children": [
           {
-            "id": "51ba70f7d4629911",
+            "id": "5b9f2000015927ee",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/20221004/20221004.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +105,18 @@
             }
           },
           {
-            "id": "55dfa2b2407a379f",
+            "id": "9c254f2098ea0449",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/20221004/20221004.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "089d4ea5ef7ce1c8",
+            "id": "602309cba49e368f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +127,11 @@
             }
           },
           {
-            "id": "80ae795dfaa83b1b",
+            "id": "63a4b79c8c4322f3",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DB/20221004/20221004.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -136,17 +141,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1967e84b33c96315",
+  "active": "b7f48079dc32786c",
   "lastOpenFiles": [
-    "DB/20221005/20221005.md",
-    "2022-11-04.md",
-    "Javascript/20221026/20221026.md",
-    "Javascript/20221019/20221019.md",
-    "Vue.js/20221031/20221031.md",
-    "Vue.js/20221102/20221102.md",
-    "Javascript/20221024/20221024.md",
-    "README.md",
-    "Untitled 1.md",
-    "20221024/20221024.md"
+    "20221101/01장/01장.md",
+    "20221103/03장/03장.md",
+    "20221102/02장/02장.md",
+    "03장.md"
   ]
 }
