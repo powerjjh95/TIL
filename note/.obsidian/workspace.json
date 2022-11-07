@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "aba28cb817811954",
+        "id": "259fdf45636122c3",
         "type": "tabs",
         "children": [
           {
-            "id": "4bb252534ee950c1",
+            "id": "11ea60b96f6a498a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DB/20221004/20221004.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/20221004/20221004.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/20221004/20221004.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DB/20221004/20221004.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -136,8 +128,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1967e84b33c96315",
+  "active": "11ea60b96f6a498a",
   "lastOpenFiles": [
+    "Vue.js/20221107/20221107.md",
+    "DB/20221004/20221004.md",
     "DB/20221005/20221005.md",
     "2022-11-04.md",
     "Javascript/20221026/20221026.md",
@@ -145,8 +139,6 @@
     "Vue.js/20221031/20221031.md",
     "Vue.js/20221102/20221102.md",
     "Javascript/20221024/20221024.md",
-    "README.md",
-    "Untitled 1.md",
-    "20221024/20221024.md"
+    "README.md"
   ]
 }
