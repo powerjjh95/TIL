@@ -1,0 +1,17 @@
+import React, { Component } from 'react'
+
+class Content extends Component {
+  render() {
+    console.log('Content render')
+    return (
+      <article>
+        {/* <h2>HTML</h2> */}
+        <h2>{this.props.title}</h2>
+        {this.props.desc}
+        {/* HTML is HyperText Markup Language. */}
+      </article>
+    )
+  }
+}
+
+export default Content
