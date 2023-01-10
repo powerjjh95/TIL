@@ -3,7 +3,4 @@ sys.stdin = open('ex_003_input.txt')
 
 number = int(input())
 
-F = 32
-
-answer = number * 32
-print(answer)
+print("%0.2f ℃ =>  %0.2f ℉" % (number, 32 + number * 1.8))
