@@ -7,7 +7,7 @@
   <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
   <script src="https://unpkg.com/babel-standalone/babel.min.js"></script>
   <script type="text/babel">
-    function MinutesToHours() {
+    /*function MinutesToHours() {
       const [amount, setAmount] = React.useState(0);
       const [inverted, setInverted] = React.useState(false);
       const onChange = (event) => {
@@ -48,14 +48,14 @@
           <button onClick={onFlip}>Invert</button>
         </div>
       );
-    }
-    function KmToMiles() {
+    }*/
+    /*function KmToMiles() {
       return <h3>KM 2 M</h3>;
-    }
-    function App() {
-      const [index, setIndex] = React.useState("xx")
-      const onSelect = (event) => {
-        setIndex(event.target.value)
+    }*/
+    /*function App() {
+    const [index, setIndex] = React.useState("xx")
+    const onSelect = (event) => {
+      setIndex(event.target.value)
       }
       console.log("render w/", index)
       return (
@@ -74,7 +74,33 @@
       );
     }
     const root = document.getElementById("root");
+    ReactDOM.render(<Ap />, root);*/
+    function SaveBtn() {
+      return <button style={{
+        backgroundColor: "tomato", 
+        
+        
+        
+        
+        
+              color:"white",
+
+      }}>Save Changes</button>
+    }
+    function ConfirmBtn() {
+      return <button>Confirm</button>
+    }
+    function App() {
+      return (
+        <div>
+          <SaveBtn />
+          <ConfirmBtn />
+        </div>
+      );
+    }
+    const root = document.getElementById("root");
     ReactDOM.render(<App />, root);
+  </script>
   </script>
 
   <!-- <script type="text/babel">
