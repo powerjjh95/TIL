@@ -63,7 +63,7 @@ function print(value: any) {
 
 // Generic
 
-function insertAtBeginning(array: number[], value: any) {
+function insertAtBeginning<T>(array: T[], value: T) {
   const newArray = [value, ...array];
   return newArray;
 }
@@ -71,3 +71,6 @@ function insertAtBeginning(array: number[], value: any) {
 const demoArray = [1, 2, 3];
 
 const updateArray = insertAtBeginning(demoArray, -1); // [-1, 1, 2, 3]
+insertAtBeginning(["a", "b", "c"], "d");
+
+// updateArray[0].split("");
