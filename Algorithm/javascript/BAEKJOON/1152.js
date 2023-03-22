@@ -1,11 +1,12 @@
 function solution(input) {
   const strings = input;
-  console.log(strings);
-  let countOfWords = 0;
+  let wordCounts = 0;
   for (let i = 0; i < strings.length; i++) {
-    countOfWords++;
+    if (strings[i] !== "") {
+      wordCounts++;
+    }
   }
-  console.log(countOfWords);
+  console.log(wordCounts);
 }
 
 const readline = require("readline");

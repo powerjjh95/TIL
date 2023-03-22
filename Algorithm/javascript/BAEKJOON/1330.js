@@ -19,7 +19,7 @@ rl.on("line", function (line) {
   input = line;
   rl.close();
 }).on("close", function () {
-  list = input.split(" ").map((el) => parseInt(el));
+  list = input.split(" ").map((element) => parseInt(element));
   solution(list);
   process.exit();
 });

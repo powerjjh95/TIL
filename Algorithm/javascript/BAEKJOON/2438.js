@@ -1,6 +1,6 @@
 function solution(input) {
   for (let i = 1; i <= input; i++) {
-    console.log("*" * i);
+    console.log("*".repeat(i));
   }
 }
 
