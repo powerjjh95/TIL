@@ -1,8 +1,21 @@
 function solution(input) {
+  // 문자열 입력받기
   let S = input;
-  let alphabetList = [];
-  for (let i = 0)
-  console.log(alphabetList);
+
+  // alphabetList 구현하기
+  let alphabetPosition = [];
+  for (let i = 0; i < 26; i++) {
+    alphabetPosition.push(-1);
+  }
+
+  // 아스키 코드로 각 위치 만들기
+  let SList = [];
+  for (let i = 0; i < S.length; i++) {
+    let eachS = S.charCodeAt(i) - 97;
+    SList.push(eachS);
+    alphabetPosition[eachS] = SList.indexOf(eachS);
+  }
+  console.log(alphabetPosition.join(" "));
 }
 
 const readline = require("readline");
