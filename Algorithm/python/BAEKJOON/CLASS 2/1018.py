@@ -15,12 +15,12 @@ for x in range(M-7):
                 # i+j가 홀수이면, 해당 (i,j) 상하좌우는 짝수
                 # (i, j) = (0, 0)이 체스판의 가장 왼쪽 상단(시작점)
                 if (i+j) % 2 == 0: # i+j가 짝수인 경우(시작점 포함)
-                    if board[i][j] == "B": # black 시작
+                    if board[i][j] != "B": # black 시작
                         black_start_count += 1
                     else: # white 시작
                         white_start_count += 1
                 else: # i+j가 홀수인 경우
-                    if board[i][j] == "W": # black 시작
+                    if board[i][j] != "W": # black 시작
                         black_start_count += 1
                     else: # white 시작
                         white_start_count += 1
