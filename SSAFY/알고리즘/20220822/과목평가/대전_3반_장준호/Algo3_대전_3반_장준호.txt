@@ -1,0 +1,17 @@
+3-1.스택의 특성을 3가지 이상 서술하시오.
+1. First-in-Lsat-Out 구조를 가지고 있다.
+2. DFS와 BFS를 알고리즘을 구성하는 기본적인 이론이다.
+3. .append()와 .pop()을 이욯하여 알고리즘을 구성할 수 있다.
+
+3-2.
+push(A)     # A
+push(B)     # A B
+pop()       # A
+push(D)     # A D
+push(C)     # A D C
+push(F)     # A D C F
+push(E)     # A D C F E
+pop()       # A D C F
+push(A)     # A D C F A
+
+A D C F A
