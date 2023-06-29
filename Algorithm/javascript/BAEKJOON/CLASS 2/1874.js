@@ -1,9 +1,50 @@
+const readline = require("readline");
+const rl = readline.createInterface({
+  input: process.stdin,
+  outpus: process.stdout,
+});
+
+let input = [];
+rl.on("line", (line) => {
+  if (!line) {
+    rl.close();
+  } else {
+    input.push(line);
+  }
+}).on("close", () => {
+  solution(input);
+  process.exit();
+});
+
 // 1부터 숫자를 차례대로 입력하면서 push와 pop을 반복하여 문제에서 제시한 case에 적합하면 정답
 
 // https://leylaoriduck.tistory.com/481
 // TRY 2
 function solution(input) {
-  let n = input;
+  let n = input[0];
+  var array = [];
+  var stack = [];
+  var answer = "";
+  for (var i = 0; i <= n; i++) {
+    array[i] = i + 1;
+  }
+  // console.log(array); // right
+  for (var j = 1; j <= n; j++) {
+    var count = 1;
+    while (count <= n && stack[stack.length - 1] != input[j]) {
+      stack.push(array.shift());
+      answer += "+\n";
+      count++;
+    }
+    if (stack[stack.length - 1] == input[j]) {
+      stack.pop();
+      answer += "-\n";
+    } else {
+      answer = "NO";
+      break;
+    }
+  }
+  console.log(answer);
 }
 
 // // TRY 1
@@ -38,21 +79,3 @@ function solution(input) {
 //     }
 //   }
 // }
-
-const readline = require("readline");
-const rl = readline.createInterface({
-  input: process.stdin,
-  outpus: process.stdout,
-});
-
-let input = [];
-rl.on("line", (line) => {
-  if (!line) {
-    rl.close();
-  } else {
-    input.push(line);
-  }
-}).on("close", () => {
-  solution(input);
-  process.exit();
-});
