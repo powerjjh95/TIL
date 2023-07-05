@@ -1,4 +1,4 @@
 S = input()
-i = int(input())
+i = int(input()) - 1
 
-print(S[i - 1])
+print(S[i])
