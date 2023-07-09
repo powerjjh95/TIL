@@ -15,16 +15,18 @@ rl.on("line", (line) => {
 // TRY 2
 function solution(input) {
   let answer = 0;
-  if (input === 0) answer;
+  if (input === 0) {
+    answer;
+  }
   for (let i = 1; i <= input; i++) {
     if (i % 5 === 0) answer++;
     if (i % 25 === 0) answer++;
     if (i % 125 === 0) answer++;
   }
-  return answer;
+  console.log(answer);
 }
 
-// TRY 1
+// // TRY 1
 // function solution(input) {
 //   let N = Number(input);
 
